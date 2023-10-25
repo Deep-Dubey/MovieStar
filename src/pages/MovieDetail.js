@@ -18,6 +18,7 @@ export const MovieDetail = () => {
     fetchMovie();
   }, [params.id])
 
+  //eslint-disable-next-line
   useTitle(`${movie.title}`)
 
   return (
